@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Profound neuronal differences during Exercise-Induced Hypoalgesia between athletes and non-athletes revealed by functional near-infrared spectroscopy",
-  "description": "This functional near-infrared spectroscopy (fNIRS) dataset investigates neuronal mechanisms underlying exercise-induced hypoalgesia in endurance athletes versus non-athletes. Twenty-two athletes and twenty non-athletes performed high-intensity interval training (HIIT) while brain oxygenation was monitored across pain-processing regions including the prefrontal cortex, sensorimotor cortices, and posterior parietal cortex. The study reveals distinct neural activation patterns and pain reduction responses between groups, with athletes demonstrating greater oxyhemoglobin increases in the posterior parietal cortex during exercise and significant post-HIIT decreases in pain perception correlated with prefrontal cortex deactivation.",
-  "methods_description": "Participants underwent high-intensity interval training (HIIT) and pressure pain tests while brain oxygenation was monitored using functional near-infrared spectroscopy (fNIRS) covering the prefrontal cortex, sensorimotor cortices, and posterior parietal cortex. The study included 22 endurance athletes (mean age 33.3 ± 10.8 years) and 20 non-athletes (mean age 28.9 ± 9.0 years).",
+  "description": "This fNIRS dataset captures brain oxygenation changes during exercise-induced hypoalgesia in 22 endurance athletes and 20 non-athletes. Participants completed high-intensity interval training (HIIT) and pressure pain tests while oxyhemoglobin was recorded over the prefrontal, sensorimotor and posterior parietal cortices. The data support comparisons of athlete and non-athlete neural responses to exercise and pain, and how these relate to pain perception.",
+  "methods_description": "Functional near-infrared spectroscopy recorded brain oxygenation over the prefrontal cortex, sensory motor cortices, and posterior parietal cortex during high-intensity interval training and pressure pain testing in athletes and non-athletes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,25 +11,29 @@
   },
   "keywords": [
     {
+      "term": "functional near-infrared spectroscopy"
+    },
+    {
       "term": "fNIRS"
     },
     {
       "term": "exercise-induced hypoalgesia"
     },
     {
-      "term": "pain processing"
-    },
-    {
-      "term": "prefrontal cortex"
-    },
-    {
       "term": "high-intensity interval training"
     },
     {
-      "term": "oxyhemoglobin"
+      "term": "Pain",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010146"
     },
     {
-      "term": "athletes"
+      "term": "Athletes",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D056352"
+    },
+    {
+      "term": "oxyhemoglobin"
     }
   ],
   "related_identifiers": [
@@ -39,14 +43,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on006902",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds006902.v1.1.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006902",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -55,7 +59,7 @@
     "nirs"
   ],
   "sizes": [
-    "5.9 GB (43 files)"
+    "5.51 GB (43 files)"
   ],
   "formats": [
     ".json",
