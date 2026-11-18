@@ -6,3 +6,7 @@ During HIIT, both groups exhibited a steady increase in PFC oxyhemoglobin, with 
 The pronounced HIIT-induced increase in oxyhemoglobin in athletes may elevate baseline neural activity to a level where additional activation is limited, potentially reducing the salience of pain-related signals. This athlete-specific response may result from endurance training adaptations, such as enhanced microvascularization and oxygen delivery, promoting greater neural efficiency during high-intensity exercise. These findings highlight HIIT's potential as a targeted pain management strategy for athletes and the need for tailored approaches in non-athletes.
 
 dataset: sub01-sub27 are athletes; sub29-sub53 are non-athletes
+
+## Contributed notes (version 1.1.2)
+
+- SamplingFrequency: nirs.json and the sampling_frequency column of channels.tsv give 7.627765064836003 Hz. The SNIRF time step is 0.131072 s (checked in sub-VP41 and sub-VP44), i.e. 7.62939 Hz; both values are left as published.

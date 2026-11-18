@@ -1,6 +1,6 @@
 {
   "Name": "Profound neuronal differences during Exercise-Induced Hypoalgesia between athletes and non-athletes revealed by functional near-infrared spectroscopy",
-  "BIDSVersion": "1.7.0",
+  "BIDSVersion": "1.8.0",
   "DatasetType": "raw",
   "Authors": [
     "Maria Geisler, Marco Herbsleb, Feliberto de la Cruz, Sabrina von Au, Andy Schumann, Ilona Croy, Karl-Jürgen Bär"
@@ -15,5 +15,8 @@
       "DOI": "doi:10.18112/openneuro.ds006902.v1.1.1"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.1.2",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1113/jp289766"
+  ]
 }

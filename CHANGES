@@ -1,3 +1,11 @@
+1.1.2 2026-11-18
+  - 42 sub-*/nirs/sub-*_optodes.tsv and 42 sub-*_coordsystem.json added from SNIRF /nirs/probe (sourcePos3D, detectorPos3D); NIRSCoordinateSystem Other, with a description
+  - 42 *_nirs.json: Manufacturer "SNIRF" -> "NIRx Medizintechnik GmbH" (SNIRF tag ManufacturerName)
+  - 42 channels.tsv and 42 events.tsv: UTF-8 byte-order mark removed; values unchanged
+  - dataset_description.json: BIDSVersion 1.7.0 -> 1.8.0 (the nirs datatype exists in BIDS from version 1.8.0); ReferencesAndLinks added: doi:10.1113/jp289766 (same title and authors)
+  - sourcedata/: the published versions of the 42 JSON sidecars whose values change in this version, byte-identical at the same relative path
+  - README.md: new section "Contributed notes (version 1.1.2)"
+  - dataset_description.json: Version 1.0.0 -> 1.1.2
 1.1.1 2025-11-06
   - authors updated
 1.1.0 2025-11-06
